@@ -1,9 +1,10 @@
 # 1.	Data Visualisation in Python
- - Written by Liping Zheng.
+     _Written by Liping Zheng_
 
 As we covered in the Big Data, Analytics and Visualisation (BDAV) lecture, data visualisation is the graphical representation of information and data, which can be applied to remove the noise from data, find out the pattern and trend and highlight the useful information to tell stories. Data visualisation can be used for data exploration to help us understand data and quickly get some initial insight from big amount of data or be used to present data analysis result to facilitate decision making. We have been using Tableau to do data visualisation, and here we are going to introduce how we can visualise data using Python.
 Python is powerful in terms of data visualisation since it offers multiple great visualisation libraries with different features to fulfil your needs. There are some popular and commonly used plotting libraries in Python, including Matplotlib, Seaborn, ggplot, built-in visualisation in Pandas and Plotly (among others). In this section, we will introduce Matplotlib, Pandas visualisation and Seaborn (arguably the most commonly used in the data science community).
-1.1.	Visualisations with Matplotlib
+
+## 1.1.	Visualisations with Matplotlib
 Matplotlib is the most popular plotting library in Python. It’s originally created by John D. Hunter and has become an active developer community. It provides MATLAB like interface so you might feel natural with Matplotlib if you are familiar with MATLAB. Matplotlib is an excellent library for both 2D and 3D graphical plotting, and it allows to create animated and interactive visualisation as well. Here we will introduce some basic examples using Matplotlib, and I strongly recommend you to explore the Matplotlib official webpage (http://matplotlib.org/).
 Matplotlib is included as standard in the Anaconda distribution. Should you be using another flavour or Python you will need to install the library:
 pip install matplotlib
